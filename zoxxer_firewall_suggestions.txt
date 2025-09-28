@@ -1,6 +1,0 @@
-Firewall suggestions:
-Windows PowerShell (Admin):
-  New-NetFirewallRule -DisplayName 'ZoxxerBlock9999' -Direction Inbound -Action Block -LocalPort 9999 -Protocol TCP
-
-Linux:
-  sudo ufw deny 9999/tcp
